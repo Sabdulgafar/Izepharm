@@ -73,6 +73,14 @@ a{
 /* Desktop styling */
 
 /* Mobile styling */
-@media screen and () {
-  
+@media screen and (max-width: 480px) {
+  .container{
+    width: 320px;
+  }
+  .login #Username,.login #Password{
+    width: 235px
+  }
+  .forgot-password{
+    margin-left:0.5rem;
+  }
 }

@@ -1,0 +1,78 @@
+/* Universal styling */
+body{
+  background-image: linear-gradient(to bottom right, rgb(24, 24, 24), rgb(73, 73, 73), rgb(24, 24, 24));
+  margin: 0;
+  margin: 0;
+  height: 100vh;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: green;
+}
+
+/* Elemental styling */
+.home {
+  text-align: center;
+}
+.container{
+  display: block;
+  margin: auto;
+  padding: 1.25rem;
+  width: 375px;
+}
+
+/* start of header */
+.container img{
+  border-radius: 40px;
+}
+
+/* Start of login form */
+.login{
+  border-radius: 10px;
+  width: 375px;
+  box-sizing: border-box;
+  background-color: rgb(206, 206, 206);
+  padding-right: 0.75rem;
+  margin-top: -1.75rem;
+}
+.login #Username,.login #Password{
+  padding: 0.75rem;
+  margin: 0.5rem;
+  width: 288px
+}
+.login #submit{
+  padding: 0.75rem;
+  border-radius: 5px;
+  background-color: green;
+  border: solid 2px green;
+  color: white;
+  margin: 0 0 0 0.5rem;
+  width: 128px;
+  margin-top: 1.25rem;
+  font-weight: bolder;
+}
+.login #submit:hover{
+  background-color: rgba(255, 255, 255, 0);
+  color: green;
+}
+.forgot-password{
+  margin-left:3.75rem;
+}
+.avatar-section{
+  display: block;
+  width: max-content;
+  margin: auto;
+  padding: 0.25rem;
+}
+/* End of Login form */
+
+
+/* Sectional styling */
+
+/* Desktop styling */
+
+/* Mobile styling */
+@media screen and () {
+  
+}

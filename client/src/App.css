@@ -115,11 +115,6 @@ a{
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
-.bg-text h1{
-  border-left: solid white 2px;
-  padding-left: 0.5rem;
-  
-}
 .bg-text a{
   border: solid 2px white;
   color: white;
@@ -150,6 +145,10 @@ a{
   }
   .bg-text{
     float: right;
+  }
+  .bg-text h1{
+    border-left: solid white 2px;
+    padding-left: 0.5rem;
   }
 }
 @media screen and (min-width: 480px) {
@@ -186,16 +185,23 @@ a{
     color: white;
     font-weight: bold;
     position: absolute;
-    top: 288px;
+    top: 278px;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 300px;
+    width: 280px;
     padding: 20px;
-    height: 300px;
+    height: 280px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+  }
+  .imagine{
+    float: none;
+    margin: auto;
+    display: block;
+  }
+  .container-about{
 
   }
 }

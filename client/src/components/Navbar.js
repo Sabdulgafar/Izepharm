@@ -9,7 +9,7 @@ const Navbar = ()=>{
                 <img src={ize} width="40px" height="40px" alt="Logo"/>
                 <a href="/">Home</a>
                 <a href="/login">Login</a>
-                <a href="#contact">About</a>
+                <a href="/about">About</a>
             </div>
         </div>
     );

@@ -5,8 +5,8 @@ import banna from "../components/imgs/banna.jpg";
 
 export const Home = ()=>{
     return(
-        <div >
-            <div className="container" style={{backgroundImage:`url(${banna})`,
+        <div className="container-banna">
+            <div className="imagine" style={{backgroundImage:`url(${banna})`,
                                             backgroundSize: "cover",
                                             backgroundRepeat: "no-repeat",
                                             width: "300px",
@@ -23,6 +23,7 @@ export const Home = ()=>{
                 <p style={{fontWeight: "lighter"}}>Where all transactions are recorded</p>
                 <a href="/login">Login</a>
             </div>
+            <div className="clear-fix"></div>
         </div>
     );
 }

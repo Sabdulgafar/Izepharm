@@ -19,7 +19,9 @@ export const Home = ()=>{
                                             WebkitBackdropFilter: "blur(2px)",
             }}></div>
             <div className="bg-text">
-                <h1>Hello world</h1>
+                <h1>Ize Pharmacy Store Management App</h1>
+                <p style={{fontWeight: "lighter"}}>Where all transactions are recorded</p>
+                <a href="/login">Login</a>
             </div>
         </div>
     );

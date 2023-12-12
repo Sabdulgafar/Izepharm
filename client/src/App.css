@@ -99,7 +99,7 @@ a{
 /* Banna section */
 .bg-text {
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.301); /* Black w/opacity/see-through */
+  background-color: rgba(0, 0, 0, 0.404); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
   position: absolute;
@@ -109,11 +109,19 @@ a{
   z-index: 2;
   width: 300px;
   padding: 20px;
-  text-align: center;
   height: 300px;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+}
+.bg-text a{
+  border: solid 2px white;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  text-align: center;
+  border-radius: 10px;
+  display: block;
+  width: 60px;
 }
 /* Desktop styling */
 

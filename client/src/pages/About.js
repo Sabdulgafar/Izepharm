@@ -3,7 +3,7 @@ import '../App.css';
 // import Navbar from "../components/Navbar";
 // import avatar from "../components/imgs/avatar.png";
 
-export const DashBoard = ()=>{
+export const About = ()=>{
     return(
         <div>
             

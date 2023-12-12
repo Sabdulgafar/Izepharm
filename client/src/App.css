@@ -22,9 +22,37 @@ a{
   width: 375px;
 }
 
-/* start of header */
+/* start of header / navigation */
 .container img{
   border-radius: 40px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #FFF;
+  border-radius: 5px;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: White;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav img{
+  margin: 0.25rem 0 0 3.75rem;
 }
 
 /* Start of login form */
@@ -34,7 +62,6 @@ a{
   box-sizing: border-box;
   background-color: rgb(206, 206, 206);
   padding-right: 0.75rem;
-  margin-top: -1.75rem;
 }
 .login #Username,.login #Password{
   padding: 0.75rem;
@@ -74,13 +101,19 @@ a{
 
 /* Mobile styling */
 @media screen and (max-width: 480px) {
+  .login{
+    margin-top: 6rem;
+  }
   .container{
     width: 320px;
   }
   .login #Username,.login #Password{
-    width: 235px
+    width: 235px;
   }
   .forgot-password{
     margin-left:0.5rem;
+  }
+  .topnav img{
+    margin: 0.25rem 0 0 1.75rem;
   }
 }

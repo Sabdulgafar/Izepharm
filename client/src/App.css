@@ -29,7 +29,7 @@ a{
 .topnav {
   overflow: hidden;
   background-color: #FFF;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 .topnav a {
@@ -96,7 +96,25 @@ a{
 
 
 /* Sectional styling */
-
+/* Banna section */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.301); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 288px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  height: 300px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
 /* Desktop styling */
 
 /* Mobile styling */

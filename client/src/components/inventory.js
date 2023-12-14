@@ -5,7 +5,7 @@ export const Inventory = ()=>{
     return(
         <div className='inventory-section'>
             <div>
-                <h1 className='inventory-title'>Inventory Management</h1>
+                <h1 className='dashboard-title'>Inventory Management</h1>
                 <div className='inventory-overview'>
                     <div>
                         <a href='!'>Total Products: <span id="">10</span></a>   

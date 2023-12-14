@@ -230,12 +230,15 @@ a{
     color: greenyellow;
     display: block;
   }
-  .inventory-title{
+  .dashboard-title{
     padding: 0px 20px;
     color: black;
   }
   .inventory-overview span{
     color: white;
+  }
+  .sales-section{
+    float: left;
   }
 }
 @media screen and (min-width: 480px) {

@@ -1,10 +1,12 @@
 import React from "react";
 import '../App.css';
-// import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar";
 import banna from "../components/imgs/banna.jpg";
 
 export const Home = ()=>{
     return(
+        <div>
+            <Navbar/>
         <div className="container-banna">
             <div className="imagine" style={{backgroundImage:`url(${banna})`,
                                             backgroundSize: "cover",
@@ -24,6 +26,7 @@ export const Home = ()=>{
                 <a href="/login">Login</a>
             </div>
             <div className="clear-fix"></div>
+        </div>
         </div>
     );
 }

@@ -1,20 +1,23 @@
 import './App.css';
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import {Login} from './pages/Login'
 import { Home  } from './pages/Home';
 import { About } from './pages/About';
+import {AdminDB} from './pages/AdminDB';
+import {UserDB} from './pages/UserDB';
 
 function App() {
   return (
     <div className="app">
       <Router>
-        <Navbar />
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
                 <Route exact path="/about" element={<About />} />
+                <Route path="/admindb" element={<AdminDB />} />
+                <Route path="/userdb" element={<UserDB />} />
             </Routes>
         </Router>
     </div>

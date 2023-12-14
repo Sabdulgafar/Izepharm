@@ -1,11 +1,13 @@
 import React from "react";
 import '../App.css';
-// import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar";
 // import avatar from "../components/imgs/avatar.png";
 import profileImage from "../components/imgs/profile-image.jpg";
 
 export const About = ()=>{
     return(
+        <div>
+        <Navbar />
         <div className="container-about about">
             <img src={profileImage} width="300px" height="300px" alt="Developer profile" />
             <div className="right-side">
@@ -15,6 +17,7 @@ export const About = ()=>{
                 <a href="/">Hire Me</a>
             </div>
             <div className="clear-fix"></div>
+        </div>
         </div>
     );
 }

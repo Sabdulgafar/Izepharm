@@ -150,6 +150,61 @@ a{
     border-left: solid white 2px;
     padding-left: 0.5rem;
   }
+  .leftSideBar{
+    background-color: rgba(204, 204, 204, 0.664);
+    margin-top: 0px;
+    padding: 1.5rem;
+    width: 200px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 100%;
+  }
+  .leftSideBar img{
+    border-radius: 50px;
+  }
+  .leftSideBar h2{
+    display: inline;
+    position: relative;
+    top: -10px;
+    left: 10px;
+  }
+  .leftSideBar .db{
+    padding: 0.5rem;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: #FFF solid 2px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 1.75rem;
+  }
+  .leftSideBar .db:hover{
+    background-color: white;
+    color: black;
+  }
+  .leftSideBar a{
+    padding: 0.5rem;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: white;
+    border-bottom: solid 1px white;
+  }
+  .leftSideBar .logout{
+    color: white;
+    background-color: rgba(179, 0, 0, 0.733);
+    border: none;
+    border-radius: 5px;
+    margin-top: 325px;
+  }
+  .dashboard-frame{
+    width: 80vw;
+    height: 90vh;
+    box-sizing: border-box;
+    margin: auto;
+    display: block;
+    margin-top: 3rem;
+  }
 }
 @media screen and (min-width: 480px) {
   .clear-fix{

@@ -26,6 +26,14 @@ a{
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
+.stocks{
+  height: 480px;
+  overflow-y: scroll;
+  color: black;
+}
+.stocks label{
+  margin-right: 3.5rem;
+}
 
 /* start of header / navigation */
 .container img{
@@ -151,7 +159,7 @@ a{
     padding-left: 0.5rem;
   }
   .leftSideBar{
-    background-color: rgba(204, 204, 204, 0.664);
+    background-color: rgba(117, 117, 117, 0.911);
     margin-top: 0px;
     padding: 1.5rem;
     width: 200px;
@@ -200,19 +208,17 @@ a{
   }
   .dashboard-frame{
     width: 80vw;
-    height: 90vh;
     box-sizing: border-box;
     margin: auto;
     display: block;
     margin-top: 3rem;
+    height: 653px;
+    background-color: white;
+    border-radius: 10px;
   }
   .inventory-section{
-    background-color: rgba(255, 255, 255, 0.829);
-    float: left;
-    width: 80%;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    height: 653px;
+    position: relative;
+    z-index: 1;
   }
   .inventory-overview{
     display: flex;
@@ -238,7 +244,22 @@ a{
     color: white;
   }
   .sales-section{
-    float: left;
+    position: relative;
+    left: 20px;
+  }
+  .sales-section table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+  }
+  .sales-section table td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: black;
+  }
+  
+  .sales-section table tr:nth-child(even) {
+    background-color: #a5a5a5;
   }
 }
 @media screen and (min-width: 480px) {

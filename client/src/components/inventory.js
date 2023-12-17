@@ -8,16 +8,16 @@ export const Inventory = ()=>{
                 <h1 className='dashboard-title'>Inventory Management</h1>
                 <div className='inventory-overview'>
                     <div>
-                        <a href='!'>Total Products: <span id="">10</span></a>   
+                        <a href='/stocks'>Total Products: <span id="">20</span></a>   
                     </div>
                     <div>
-                        <a href='!' style={{color:'orange'}}>Low Stock: <span id="">12</span></a>   
+                        <a href='/stocks' style={{color:'orange'}}>Low Stock: <span id="">12</span></a>   
                     </div>
                     <div>
-                        <a href='!' style={{color:'red'}}>Out of Stuck: <span id="">3</span></a>   
+                        <a href='/stocks' style={{color:'red'}}>Out of Stuck: <span id="">3</span></a>   
                     </div>
                     <div>
-                        <a href='!'>Supplies: <span id="">7</span></a>   
+                        <a href='/stocks'>Supplied: <span id="">6</span></a>   
                     </div>
                 </div>
             </div>

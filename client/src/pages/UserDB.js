@@ -5,6 +5,7 @@ import { Transact } from "../components/transact";
 import { Inventory } from "../components/inventory";
 // import Navbar from "../components/Navbar";
 // import avatar from "../components/imgs/avatar.png";
+import { Tray } from "../components/tray";
 
 export const UserDB = ()=>{
     return(
@@ -12,6 +13,7 @@ export const UserDB = ()=>{
             <LeftSideBar />
             <Inventory />
             <Transact />
+            <Tray />
         </div>
     );
 }

@@ -136,16 +136,35 @@ a{
   display: flex;
   clear: both; 
   color: black;
+  position: relative;
+  left: 18rem;
+  top: -25rem;
 }
 .Transaction-section > div{
     background: none;
     margin: 10px;
     padding: 0px 15px 20px 15px;
-    color: white;
+    color: black;
     border-radius: 5px;
-    width: 200px;
+    width: 400px;
     border: solid 2px black;
 }
+.tray{
+  display: block;
+  background-color: white;
+  width: 340px;
+  color: black !important;
+  position: absolute;
+  top: 15rem;
+  left: 40rem;
+  padding: 0.15rem 1.5rem 0.25rem 1.5rem;
+  border: solid 2.5px black;
+  border-radius: 10px;
+}
+.tray label{
+  padding-right: 1.5rem;
+}
+
 /* Desktop styling */
 @media screen and (min-width: 720px){
   .about img{
